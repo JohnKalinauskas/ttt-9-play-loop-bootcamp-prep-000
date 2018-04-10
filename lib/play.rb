@@ -1,3 +1,4 @@
+
 # Helper Methods
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -38,7 +39,6 @@ def play(board)
     turn_count+=1
   end
 end
-
 
 
 
