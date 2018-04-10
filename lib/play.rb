@@ -1,5 +1,8 @@
 
-# Helper Methods
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+puts "Welcome to Tic Tac Toe!"
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -39,6 +42,7 @@ def play(board)
     turn_count+=1
   end
 end
+
 
 
 
